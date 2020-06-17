@@ -23,7 +23,9 @@ $('.js--scroll-to-start').click(function(){
 
 
     /* Naviagtion scroll  */
-// Select all links with hashes
+
+
+    // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
@@ -61,13 +63,10 @@ $('a[href*="#"]')
     });
 
 
+
+});
 /*Animate on Scroll*/
-
-$('.js--wp-1').waypoint(function(direction){
-    $('.js-wp-1').addClass('animated fadeIn');
-})
-
-
-
-
+$('.js--nav-icon').click(function(){
+  var nav = $('.js--main-nav');
+  nav.slideToggle(200);
 });

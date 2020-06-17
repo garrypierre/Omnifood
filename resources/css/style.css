@@ -271,6 +271,22 @@ header {
 
 }
 
+/* ----- Mobile navi ------*/
+.mobile-nav-icon{
+    float:right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon  {
+    font-size: 200%;
+    color:#fff;
+
+}
+
+
+
 
 /* ----- Sticky navi ------*/
 
@@ -628,10 +644,6 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-
-
-
-/* -----Animations ------*/
 
 
 
